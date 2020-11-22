@@ -1,0 +1,135 @@
+.btn-outline-dark {
+  background-color: #025157;
+}
+.btn-primary {
+  background-color: #67b54b;
+  border: none;
+}
+
+.promo-text > p {
+  color: gray;
+}
+
+.section-1 {
+  margin-top: 200px;
+}
+
+.section-2 {
+  margin-top: 200px;
+}
+
+.section-3 {
+  margin-top: 200px;
+}
+
+.section-4 {
+  margin-top: 200px;
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.card img {
+  transition: all 0.3s ease-in-out;
+}
+.card img:hover {
+  transform: scale(1.05) rotate(0.5deg);
+}
+
+.card a:hover {
+  color: #67b54b;
+}
+.card {
+  overflow: hidden;
+}
+
+.btn-primary:hover {
+  cursor: default;
+  background-color: #67b54b !important;
+}
+
+.button-submit {
+  background-color: #025157;
+}
+
+.button-submit:hover {
+  background-color: #67b54b;
+}
+
+.button-navbar:hover {
+  background-color: #67b54b;
+}
+
+.carousel-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-unstyled a:hover {
+  color: #67b54b;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.section-5 {
+  background-color: #025157;
+}
+
+.jumbotron-section5 {
+  background-color: #025157;
+}
+
+.anchor-section5 {
+  color: #67b54b;
+}
+
+.anchor-section5:hover {
+  color: #67b54b;
+  text-decoration: underline white;
+}
+
+@media (max-width: 575px) {
+  .carousel-text {
+    display: block;
+  }
+
+  .section-1 {
+    margin-top: 100px;
+  }
+
+  .section-2 {
+    margin-top: 100px;
+  }
+
+  .section-3 {
+    margin-top: 100px;
+  }
+
+  .section-4 {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .section-1 {
+    margin-top: 100px;
+  }
+
+  .section-2 {
+    margin-top: 100px;
+  }
+
+  .section-3 {
+    margin-top: 100px;
+  }
+
+  .section-4 {
+    margin-top: 100px;
+  }
+}
